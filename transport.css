@@ -1,0 +1,65 @@
+/* Style for Transport page*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 160%;
+}
+
+.transport-top {
+    margin: auto;
+    padding: 22px 10px;
+    text-align: center;
+    max-width: 750px;
+}
+
+.transport-top p {
+    line-height: 180%;
+    padding-bottom: 15px;
+}
+
+hr {
+    border-top: 4px groove rgb(197, 197, 197);
+    margin: 15px auto;
+    max-width: 40%;
+}
+
+@media(min-width: 700px) {
+    .transport-main {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: auto;
+        max-width: 50%;
+    }
+}
+
+.trans-upper {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    float: none;
+}
+
+.transport-main div {
+margin: 10px;
+}
+
+.transport-main p {
+    background-color: rgb(224, 224, 224);
+}
+
+.trans-lower {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    float: none;
+}
+
+.trans-icons {
+    width: 10%;
+    text-align: center;
+    margin: auto;
+}

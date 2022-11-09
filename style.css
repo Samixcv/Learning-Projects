@@ -1,0 +1,117 @@
+/* General styles for Nav and Header for all pages*/
+
+/*##############*/
+
+/* Color Theme Swatches in Hex */
+
+.Architecture-1-hex {
+    color: #D9981E;
+}
+
+.Architecture-2-hex {
+    color: #A68877;
+}
+
+.Architecture-3-hex {
+    color: #8C160B;
+}
+
+.Architecture-4-hex {
+    color: #A6A6A6;
+}
+
+.Architecture-5-hex {
+    color: #0D0D0D;
+}
+
+/* Color Theme Swatches in RGBA */
+
+.Architecture-1-rgba {
+    color: rgba(216, 151, 30, 1);
+}
+
+.Architecture-2-rgba {
+    color: rgba(165, 136, 119, 1);
+}
+
+.Architecture-3-rgba {
+    color: rgba(140, 21, 11, 1);
+}
+
+.Architecture-4-rgba {
+    color: rgba(165, 165, 165, 1);
+}
+
+.Architecture-5-rgba {
+    background-color: rgba(12, 12, 12, 1);
+}
+
+/*Class assigned to header*/
+
+/* Color Theme Swatches in HSLA */
+
+.Architecture-1-hsla {
+    color: hsla(39, 75, 48, 1);
+}
+
+.Architecture-2-hsla {
+    color: hsla(22, 20, 55, 1);
+}
+
+.Architecture-3-hsla {
+    color: hsla(5, 85, 29, 1);
+}
+
+.Architecture-4-hsla {
+    color: hsla(0, 0, 65, 1);
+}
+
+.Architecture-5-hsla {
+    color: hsla(0, 0, 5, 1);
+}
+
+/* #################################################### */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+}
+
+body {
+    background-color: rgba(165, 136, 119, 0.2);
+}
+
+li, a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    cursor: pointer;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-links li a:hover {
+    color: #A68877;
+}
+
+a:active {
+    color: #D9981E;
+}
